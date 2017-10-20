@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stockmind Blog</title>
+  {% include _imports_head.html %}
+</head>
+<body>
+  <!-- Page Wrapper -->
+  <div id="page-wrapper">
+    <!-- Menu -->
+    {% include _menu_es.html %}
+
+    <!-- Banner -->
+    <section id="banner">
+      <div class="inner">
+        <div class="logo"><span class="icon fa-diamond"></span></div>
+        <h2>Stockmind Blog</h2>
+        <p>Las últimas novedades sobre nuestra plataforma</p>
+      </div>
+    </section>
+
+    <section id="wrapper">
+      <!-- One -->
+      <section id="features" class="wrapper alt style1">
+        <div class="inner">
+          <div class="content">
+            {{ content }}
+          </div>
+        </div>
+      </section>
+    </section>
+  </div>
+  {% include _imports_footer.html %}
+</body>
+</html>
